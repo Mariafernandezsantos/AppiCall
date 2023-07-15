@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSONPlaceholder Users</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>JSONPlaceholder Users</h1>
+  <div class="container">
+    <table id="userTable">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>City</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <div class="search-container">
+    <input type="text" id="userId" placeholder="Enter User ID">
+    <button id="searchButton">Search User</button>
+  </div>
+  <div id="resultContainer"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
